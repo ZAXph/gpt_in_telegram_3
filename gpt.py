@@ -7,7 +7,7 @@ class GPT:
         """Запрос к Yandex GPT"""
 
         # Получаем токен и folder_id, так как время жизни токена 12 часов
-        token, folder_id = "t1.9euelZqXnMiZmc6bip3PjsaWmZqKye3rnpWamMyalJebnZOKxsyVypOajJTl8_d0NGZP-e98Uhlk_t3z9zRjY0_573xSGWT-zef1656Vms3Ly4uUyJfPmsqJmIqdyZCW7_zF656Vms3Ly4uUyJfPmsqJmIqdyZCWveuelZrNk5aUk5yMicfHi8eJnZPOirXehpzRnJCSj4qLmtGLmdKckJKPioua0pKai56bnoue0oye.D1aDPEiOvsXzXdvnr4KnJFbjQ0bSbEYNJr1xj8o_ri4B1ywqgAWsR28oHywzaC2i33b5DZ2USBw4Im7L_VuDBg", "b1gn1kghpq4rvsp4e2h1"
+        token, folder_id = "", ""
 
         url = f"https://llm.api.cloud.yandex.net/foundationModels/v1/completion"
         headers = {

@@ -1,7 +1,7 @@
 from telebot import *
 
 assistant_content = "Давай разберем по шагам: "
-TOKEN = "6815594086:AAFmwexlJBjfNt8xinJKVhUz2613ND2opX0"
+TOKEN = ""
 
 modes = ["Фантастика", "Комедия", "Страшилка"]
 heroes = {"Винни-Пух", "Гермиона", "Доктор Хаус", "Наруто"}
